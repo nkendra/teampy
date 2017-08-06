@@ -1,0 +1,6 @@
+.*
+*.tar.gz
+
+# Python
+*.egg*
+*.pyc
