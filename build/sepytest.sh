@@ -1,9 +1,11 @@
-echo "Starting Build"
+#!/usr/bin/env python36
 
-echo "Check Python version"
-which python
-python --version
+import sys
 
-which python36
+def main():
+    print('Run build in Python!')
+    return 0
 
-echo "Down"
+if __name__ == '__main__':
+    result = main()
+    sys.exit(result)
